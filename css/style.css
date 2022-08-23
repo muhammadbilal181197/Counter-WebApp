@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.btn{
+background: none;
+outline: none;
+border: 1px solid black;
+border-radius: 20px;
+padding: 10px;
+margin: 10px;
+font-size: 18px;
+}
+.btn:hover{
+    cursor: pointer;
+}
+#counter{
+    font-size: 150px;
+}
+
+@media (max-width:575px){
+    .btn{
+font-size: 15px;
+    }
+}
